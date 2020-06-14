@@ -1,0 +1,32 @@
+{
+  "name": "asistencia-ufps",
+  "version": "1.0.0",
+  "description": "proyecto web para la asistencia a ufps",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelFlorez/asistencia-ufps.git"
+  },
+  "keywords": [
+    "asistencia",
+    "ufps"
+  ],
+  "author": "Manuel Florez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelFlorez/asistencia-ufps/issues"
+  },
+  "homepage": "https://github.com/ManuelFlorez/asistencia-ufps#readme",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1",
+    "ts-node-dev": "^1.0.0-pre.47",
+    "typescript": "^3.9.5"
+  }
+}
